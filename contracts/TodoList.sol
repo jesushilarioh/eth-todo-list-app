@@ -5,7 +5,6 @@ contract TodoList {
   constructor () public {
     createTask("Check out dappuniversity.com");
   }
-  
   uint public taskCount = 0; // "state variable"
 
   struct Task {
